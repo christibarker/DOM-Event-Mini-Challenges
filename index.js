@@ -1,8 +1,4 @@
 
-document.getElementById('right').addEventListener('click', function (){
-	alert('I am right!');
-});
-
-document.getElementById('no').addEventListener('click', function (){
-	alert('No, I am right!');
+document.getElementById('noHovering').addEventListener('mouseover', function (){
+	alert('Hey, I told you not to hover over me!');
 });
