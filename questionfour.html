@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Question #4</title>
+</head>
+<body>
+	<h3>Question 4</h3>
+	<h4>Create an HTML page with a form. 
+		The form should include inputs for a username, 
+		password, an h1 
+		tag as well as a button. In a Javascript file, 
+		write code that does the following things when the button is pressed:
+checks that the password is 12345678
+checks that the username is less than 14 characters in length
+if the info in the form is correct, 
+have Javascript change the text in the 
+h1 to say "Congrats on knowing your username and password!"
+if anything is wrong, send an alert message saying "Incorrect username or password"
+Hint: You'll have to prevent the Default event from happening when the form is submitted.</h4>
+
+<form id="form" method="POST" action="#">
+		<h1 id="header">Please fill in the form</h1>
+		<input type="userName" id="userName" name="userName" placeholder=" userName">
+		<input type="password" id="password" name="password" placeholder="password">
+		
+		<input type="submit" value="submit">
+	</form>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
