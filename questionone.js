@@ -1,8 +1,8 @@
 
 document.getElementById('right').addEventListener('click', function (){
-	alert('I am right!');
+	document.getElementById('box-in-middle').innerText = "I'm Right!";
 });
 
-document.getElementById('no').addEventListener('click', function (){
-	alert('No, I am right!');
+document.getElementById('left').addEventListener('click', function (){
+	document.getElementById('box-in-middle').innerText = "No, I'm Right!";
 });
