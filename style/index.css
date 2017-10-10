@@ -1,0 +1,15 @@
+#box-in-middle {
+	border: solid;
+	height: 100px;
+	width:200px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#right {
+	margin-left: 8%;
+}
+
+#left {
+	margin-left: 8%;
+}
